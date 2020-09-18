@@ -1,0 +1,3 @@
+- Vulnerability yang diterapkan adalah LFI (Local File Inclusion) dengan beberapa proteksi tambahan, yaitu blokir string "../" dan User hanya dapat mengakses file dengan nama binatang (fox, dog, dan cat) di dalamnya.
+- Peserta diharapkan akan membaca source code dog.php menggunakan PHP Filter setelah berhasil mem-bypass proteksi tadi dan akan menemukan clue.
+- Clue tersebut akan menuntun Peserta untuk mengakses log apache yang di sana akan ada bot yang mengakses halaman flag setiap 2 detik sekali.
